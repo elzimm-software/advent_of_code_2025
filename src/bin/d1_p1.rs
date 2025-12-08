@@ -72,7 +72,7 @@ impl Display for Dial {
 }
 
 fn main() -> Result<(), Box<dyn Error>> {
-    let input = read_to_string("inputs/d1_p1.txt")?;
+    let input = read_to_string("inputs/d1.txt")?;
     let mut dial = Dial::new(50);
 
     let zeros = input.lines().fold(0, |acc, e| {

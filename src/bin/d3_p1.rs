@@ -41,7 +41,7 @@ fn max_joltage(banks: &str) -> u32 {
 }
 
 fn main() -> Result<(), Box<dyn Error>> {
-    let input = read_to_string("inputs/d3_p1.txt")?;
+    let input = read_to_string("inputs/d3.txt")?;
 
     println!("{}", max_joltage(&input));
 

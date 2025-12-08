@@ -41,7 +41,7 @@ impl Dial {
 fn main() -> Result<(), Box<dyn Error>> {
     let mut dial = Dial::new(50);
 
-    let input = read_to_string("inputs/d1_p1.txt")?;
+    let input = read_to_string("inputs/d1.txt")?;
 
     let zeros = input.lines().fold(0, |acc, e| {
         match e.get(0..1).unwrap() {
