@@ -1,6 +1,18 @@
 use std::error::Error;
 use std::fs::read_to_string;
 
+#[allow(unused_variables)]
+const EXAMPLE_INPUT: &str = "L68
+L30
+R48
+L5
+R60
+L55
+L1
+L99
+R14
+L82";
+
 struct Dial {
     n: u32,
 }
