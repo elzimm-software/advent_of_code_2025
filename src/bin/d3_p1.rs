@@ -1,7 +1,7 @@
 use std::error::Error;
 use std::fs::read_to_string;
 
-#[allow(unused_variables)]
+#[allow(dead_code)]
 const EXAMPLE_INPUT: &'static str = "987654321111111
 811111111111119
 234234234234278

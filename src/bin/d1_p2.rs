@@ -1,7 +1,7 @@
 use std::error::Error;
 use std::fs::read_to_string;
 
-#[allow(unused_variables)]
+#[allow(dead_code)]
 const EXAMPLE_INPUT: &str = "L68
 L30
 R48

@@ -3,7 +3,7 @@ use std::fmt::{Display, Formatter};
 use std::fs::read_to_string;
 use std::ops::{Add, AddAssign, Sub, SubAssign};
 
-#[allow(unused_variables)]
+#[allow(dead_code)]
 const EXAMPLE_INPUT: &str = "L68
 L30
 R48
